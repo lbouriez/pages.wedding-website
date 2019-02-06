@@ -1,6 +1,6 @@
 {
   "name": "wedding-website",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A wedding website with loads of features.",
   "main": "npmfile.js",
   "scripts": {
@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:rampatra/wedding-website.git"
+    "url": "git+ssh://git@github.com:lbouriez/wedding-website.git"
   },
   "keywords": [
     "wedding",
     "template",
     "website template"
   ],
-  "author": "Ram Patra",
+  "author": "Ram Patra & Adapted by WeeBoo",
   "license": "GPL-3.0",
-  "homepage": "https://github.com/rampatra/wedding-website",
+  "homepage": "https://github.com/lbouriez/wedding-website",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",

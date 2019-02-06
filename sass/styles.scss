@@ -32,9 +32,13 @@ a {
   -webkit-transition-property: color, border-color, background-color;
   transition-property: color, border-color, background-color;
 }
+.aAsp {
+  @extend p;
+}
 a:hover, a:focus {
   color: $accent-color-hover;
   text-decoration: none;
+  cursor:pointer;
 }
 body {
   font-family: $sans-serif;
@@ -104,6 +108,15 @@ section .header {
   background-color: #000;
   border-radius: 4px;
 }
+/* ==========================================================================
+Honey Moon
+========================================================================== */
+// #gift {
+//   .btnForceFocus {
+//     @extend .btn:focus;
+//   }
+// }
+
 /* ==========================================================================
 Animations
 ========================================================================== */
@@ -326,6 +339,7 @@ header {
 
     li {
       display: inline;
+      font-weight: bold;
 
       a {
         color: $txt-light;
@@ -343,6 +357,7 @@ header {
   ul.member-actions {
     li {
       display: inline;
+      font-weight: bold;
 
       a {
         color: $txt-light;
@@ -656,7 +671,7 @@ Instagram
 /* ==========================================================================
 Engagement Pics
 ========================================================================== */
-#eng-pics {
+#hotels {
   img {
     width: 100%;
     height: auto;

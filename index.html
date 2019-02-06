@@ -10,27 +10,41 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <title>Ram & Antara getting hitched!</title>
-    <meta name="description" content="We would like to invite you to our big day.">
+    <title data-translatable>Laurent & Giulia's wedding // Laurent & Giulia se marrient // Laurent & Giulia si sposano</title>
+    <meta name="description" content="You are invited to our big day.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ffffff">
-    <meta property="og:title" content="Ram & Antara getting hitched">
-    <meta property="og:description" content="We would like to invite you to our big day.">
-    <meta property="og:image" content="https://wedding.ramswaroop.me/img/hero-min.jpg">
+    <meta property="og:title" content="Laurent & Giulia's wedding'">
+    <meta property="og:description" content="You are invited to our big day.">
     <meta property="og:type" content="website">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="manifest.json">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <!-- ICO start-->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/ico/favicon-16x16.png">
+    <link rel="manifest" href="img/ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- ICO end-->
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/flexslider.css">
     <link rel="stylesheet" href="css/styles.min.css">
     <link rel="stylesheet" href="css/queries.css">
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="modules/flag-icon/css/flag-icon.min.css" type="text/css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 <body id="top">
@@ -42,18 +56,24 @@
     <section class="navigation">
         <header>
             <div class="header-content">
-                <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
+                <div class="logo"><a href="#"><img src="img/logo.png" class="pulse2" alt="Logo"></a></div>
                 <div class="header-nav">
                     <nav>
                         <ul class="primary-nav">
-                            <li><a href="#intro">How we met</a></li>
-                            <li><a href="#events">Events</a></li>
+                            <li><a href="#intro" data-translatable>How we met // Notre recontre // Nostro incontro</a></li>
+                            <li><a href="#events" data-translatable>Events // Programme // Eventi</a></li>
+                            <li><a href="#gift">Gifts</a></li>
                             <li><a href="#instagram">Instagram</a></li>
-                            <li><a href="#eng-pics">Engagement</a></li>
-                            <li class="hidden-sm hidden-xs"><a href="#video-bg">Glimpse of the city</a></li>
+                            <li><a href="#hotels">Hotels</a></li>
+                            <li class="hidden-sm hidden-xs"><a href="#video-bg" data-translatable>Glimpse of the city</a></li>
+                            <li>
+                                <a class="flag-icon flag-icon-fr" onclick="i18n.changeLanguage('fr');" data-toggle="tooltip" data-placement="top" title="Site en Francais"></a>
+                                <a class="flag-icon flag-icon-gb" onclick="i18n.changeLanguage('en');" data-toggle="tooltip" data-placement="top" title="Website in English"></a>
+                                <a class="flag-icon flag-icon-it" onclick="i18n.changeLanguage('it');" data-toggle="tooltip" data-placement="top" title="Sito web in Italiano"></a>
+                            </li>
                         </ul>
                         <ul class="member-actions">
-                            <li><a href="#map" class="login">Venue</a></li>
+                            <li><a href="#map" class="login" data-translatable>Venue // Emplacement // Luogo</a></li>
                             <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
                         </ul>
                     </nav>
@@ -68,9 +88,9 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <div class="hero-content text-center">
-                    <!--<h1>Ram and Antara</h1>-->
+                    <!--<h1>Laurent and Giulia</h1>-->
                     <img src="img/logo-lg.png">
-                    <!--<p class="intro">Ram & Antara are getting hitched!</p>-->
+                    <!--<p class="intro">Laurent & Giulia are getting hitched!</p>-->
                     <!--<a href="#" class="btn btn-fill btn-large btn-margin-right">Scroll Down</a> -->
                 </div>
             </div>
@@ -89,9 +109,21 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h3>We are getting hitched</h3>
-                <p>The dates are 27<sup>th</sup> & 28<sup>th</sup> of November '17 and we would like you to be a part of
-                    it.</p>
+                <h3 data-translatable>We are getting married! // On se marie ! // Ci sposiamo!</h3>
+                <p data-translatable>
+                    <span>
+                        The date is the <strong>19<sup>th</sup> of July 2019</strong> and we would like you to be a part of it.<br />
+                        Official invite will follow.
+                    </span>
+                    <span>
+                        La date est le <strong>19 Juillet 2019</strong> et nous souhaiterions partager ce moment avec vous.<br />
+                        Les faire-parts seront expédiés prochainement.
+                    </span>
+                    <span>
+                        La data è il <strong>19 Luglio 2019</strong> e vorremmo avervi con noi.<br />
+                        Le partecipazioni verranno spedite prossimamente.
+                    </span>
+                </p>
                 <div class="share-bar"></div>
             </div>
         </div>
@@ -102,26 +134,53 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h3 class="header">How we met</h3>
+                <h3 class="header" data-translatable>How we met // Notre rencontre // Il nostro incontro</h3>
             </div>
         </div>
         <div class="row">
             <div class="col-md-3 hidden-sm hidden-xs"><img src="img/IMG_2317.jpg" class="wp1"></div>
             <div class="col-md-6">
-                <p>
-                    I first saw Antara in the Fall of 2008 when we started our undergrad. I was instantly attracted to
-                    her but was far too nervous to speak to her. I had told my friend I liked her and news had traveled
-                    fast and she soon found out. Her first reaction was "Who is Ram?" and she began searching for me in
-                    the class. She started to take notice of me and no matter how boring the lecture was, we never
-                    missed a class after that. After a good few months I finally plucked up the courage to ask her out
-                    and the rest is history :)
+                <p data-translatable>
+                    <span>
+                        Our beautiful story began in May 2016 in Montreal.
+                        Our first encounter was at the YMCA school as we were classmates. With each passing day, we became inseparable and very good friends.
+                        As summer approached, we realized that what was happening between us was magic and it wasn’t just a simple friendship.<br />
+                        We had our challenges at the beginning and life wasn’t always perfect. We both have strong characters and we were communicating in many different languages!
+                        Time and patience allowed us to slowly understand each other until we created our own beautiful language!
+                        At home we speak French, English and Italian in a way that just us can understand, and this is what we like!<br />
+                        We are extremely excited about the wedding!
+                        The fact that all our family and friends will join us from many different parts of the world will make it memorable!<br />
+                        Big hug from Canada!
+                    </span>
+                    <span>
+                        Notre belle histoire a commencé en mai 2016 à Montréal.
+                        Nous étions camarade de classe dans une école d'Anglais. Jour après jour, nous sommes devenus de très bons amis.
+                        À l’approche de l’été, nous avons découvert que ce qui se passait entre nous n’était pas seulement de l'amitié.<br />
+                        Ce n’était pas facile au début, deux caractères forts et de nombreux problèmes de communications!
+                        Au fil du temps, nous avons commencé à nous comprendre chaque jour un peu plus et nous avons finalement créé notre propre langage!
+                        À la maison, nous parlons français, anglais et italien d’une manière que seul nous pouvons comprendre, et c’est ce que nous aimons!<br />
+                        Nous sommes très excités pour le mariage!
+                        La distance entre la famille et les amis rend le tout encore plus excitant! <br />
+                        Gros bisous du Canada!
+                    </span>
+                    <span>
+                        La nostra storia è iniziata nel Maggio 2016.
+                        Eravamo compagni di classe alla YMCA School di Montreal. Tutti e due in vacanza, conoscevamo gente nuova  da tutte le parti del mondo, era un bel periodo!<br />
+                        Giorno dopo giorno, diventavamo sempre piu’ amici, fino al punto di domandarsi se eravamo davvero solo amici!
+                        Siamo subito andati a vivere insieme, e, dobbiamo dire, all’inizio non e’ stato facile!
+                        Due forti personalita’ e troppe lingue diverse sotto lo stesso tetto!!!​
+                        Col passare del tempo abbiamo iniziato a capirci, ogni giorno un po’ di piu’, e, alla fine, abbiamo creato la nostra lingua!
+                        A casa parliamo Francese, Inglese e anche Italiano, in un modo che solo noi possiamo capire, ed e’ questo quello che ci piace!​​<br />
+                        Saremo felici di vedervi tutti al nostro matrimonio e non vediamo l’ora, perché la distanza da famiglia e amici lo rende per noi ancora più importante.<br />
+                        Un abbraccio dal Canada a tutti!
+                    </span>
                 </p>
             </div>
-            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/DSD_0214.jpg" class="wp2"></div>
+            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/DSD_0214.png" class="wp2"></div>
         </div>
         <div class="row">
             <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/IMG_2317.jpg" class="wp8"></div>
-            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/DSD_0214.jpg" class="wp9"></div>
+            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/DSD_0214.png" class="wp9"></div>
         </div>
     </div>
 </section>
@@ -130,99 +189,80 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="header">Events</h3>
+                <h3 class="header" data-translatable>Events // Programme // Eventi</h3>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
                 <div class="wp3">
-                    <p><strong>27th November</strong></p>
-
-                    <h5>Mehndi <span class="time">1PM - 5PM</span></h5>
-                    <p>It's one of the oldest traditional Indian pre wedding ceremony where the bride and groom
-                        attend the event together and a professional mehndi artist applies
-                        mehndi to the bride's hands and feet. This will be having a celebratory
-                        festival feel to it with people wearing vibrant clothes and dancing, singing, playing
-                        games and a lot more.</p>
-                </div>
-                <div class="wp5">
-                    <h5>Cocktail Night <span class="time">7PM - 12AM</span></h5>
-                    <p>This event is no way close to ethnic. The bride & groom would like to have some "shots before the
-                        knot". With booze flowing down the floor and the western attire on, everyone would be busy
-                        showing off their new moves on the stage which they have finely honed. Lastly, expect some beer
-                        pong matches & karaoke for sure.</p>
+                    <h5>Cerimonia <span class="time">4PM</span></h5>
+                    <p>
+                        <span>Cérémonie à l'Eglise d'Oviglio</span>
+                        <br />
+                        <strong>SS. Felice e Agata </strong><a class="aAsp" href="https://goo.gl/maps/o6wwUDHG22z" target="_blank">15026 Oviglio Alexandrie, Italy</a>
+                    </p>
                 </div>
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
                 <div class="wp4">
-                    <p><strong>28th November</strong></p>
-
-                    <h5>Haldi <span class="time">10AM-11AM</span></h5>
-                    <p>The haldi ceremony is usually held separately for the bride and the groom. This one is for the
-                        bride. It is a low-key event that involves the application of turmeric paste on the hands, legs
-                        and face of the bride. The groom is not allowed to see the bride after this ritual until the
-                        final wedding ceremony starts.</p>
-                </div>
-                <div class="wp6">
-                    <h5>Wedding <span class="time">6PM-12AM</span></h5>
-                    <p>This is the main event in the entire wedding when the bride and the groom tie the
-                        knot. The groom comes with the barat and is greeted by the bride side with some dhol of course
-                        as maximum number of guests would be attending this event. This is when the couple circle the
-                        sacred fire and are finally declared husband and wife.</p>
+                    <h5>Ricevimento <span class="time">5PM</span></h5>
+                    <p>
+                        <span>Réception au Castello di Oviglio</span>
+                        <br />
+                        <strong>Castello di Oviglio </strong><a class="aAsp" href="https://goo.gl/maps/U5mEgU9yLbk" target="_blank">Via XXIV Maggio, 1, 15026 Oviglio AL, Italy</a>
                 </div>
             </div>
         </div>
-        <div class="row section-padding">
+        <div class="row">
+            <div class="col-xs-12 section-border section-padding">
+            </div>
+        </div>
+        <div class="row section-padding" id="gift">
             <div class="col-md-4 col-md-offset-4 text-center">
-                <a class="btn btn-accent btn-small" data-toggle="modal" data-target="#dc-modal">
-                    <i class="fa fa-barcode"></i>&nbsp;&nbsp;Dress code
+                <a class="btn btn-fill btn-small" data-toggle="modal" data-target="#dc-modal">
+                    <i class="fa fa-barcode"></i>&nbsp;&nbsp;<span data-translatable>Honey moon // Voyage de noce // Viaggio di nozze</span>
                 </a>
             </div>
         </div>
-        <!--<div class="row">
-            <div class="col-xs-12 section-border section-padding">
-            </div>
-        </div>-->
     </div>
-
     <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
                     </button>
-                    <h3 class="text-center section-padding">Ugh... dress codes?</h3>
-                    <h5>Mehndi <span class="time">1PM - 5PM</span></h5>
-                    <p>
-                        <strong>Ethnic indian wear</strong>
-                        <br>
-                        Ladies can wear something
-                        <a href="https://www.pinterest.com/ramswarooppatra/mehndi-dress-for-women/">bright & vivid</a>
-                        and gentlemen can be on
-                        their <a href="https://www.pinterest.com/ramswarooppatra/mehndi-dress-for-men/">vibrant
-                        kurtas</a> with pants or pyjamas along with an optional shawl.
+                    <h3 class="text-center section-padding" data-translatable>Ugh... where is the wedding list ??? // Oops... Ou est la liste de mariage ??? // Oops... Dove è la lista di nozze ? </h3>
+                    <p data-translatable>
+                        <span>
+                            We have been living together for almost 3 years, therefore, as you can guess, we already have everything we need!<br />
+                            Instead of selecting a gift from a classic bridal registry, we would welcome a contribution to make our dream honeymoon become a reality!<br />
+                            Our Honeymoon will be idyllic as we plan to spend one week exploring and the other relaxing on the beach!
+                        </span>
+                        <span>
+                            Nous vivons ensemble depuis près de 3 ans et, comme vous pouvez le deviner, nous avons déjà tout!<br />
+                            Au lieu d’une liste de mariage classique, vous pouvez contribuer à faire de notre lune de miel de rêve une réalité!<br />
+                            Nous avons choisi de passer une semaine à explorer et une semaine à nous détendre sur la plage!
+                        </span>
+                        <span>
+                            Viviamo insieme da ormai tre anni, e, come potete immaginare, abbiamo già tutto il necessario per la casa!<br />
+                            Al posto della classica lista di nozze, potrete invece contribuire a rendere il nostro viaggio di nozze indimenticabile!<br />
+                            Abbiamo scelto di dedicare una settimana all’esplorazione e una al relax su una delle spiagge più belle al mondo!
+                        </span>
                     </p>
-                    <h5>Cocktail Night <span class="time">7PM - 12AM</span></h5>
-                    <p>
-                        <strong>Western attire</strong>
-                        <br>
-                        A semi-formal look that is contemporary & fashionable which is not too prim & proper is the best
-                        to pull off this night. You can see some pins for
-                        <a href="https://www.pinterest.com/ramswarooppatra/cocktail-night-outfit-for-women/">ladies</a>
-                        & <a href="https://www.pinterest.com/ramswarooppatra/cocktail-night-outfit-for-men/">gents</a>.
+                    <h5 data-translatable>The different ways you can participate // Les différents moyens de contribuer // Differenti modi per participare</h5>
+                    <p><strong>Europe (Transfer)</strong><br/>
+                        Iban: FR76 3000 4031 0200 0015 3858 283<br />
+                        BIC: BNPA FR PP XXX<br />
+                        Nom: Laurent Bouriez</p>
+                    <p><strong>Canada (Interac)</strong><br/>
+                        laurentandgiulia<i class="fas fa-at"></i>bouriez.org<br />
                     </p>
-                    <h5>Wedding <span class="time">6PM-12AM</span></h5>
-                    <p>
-                        <strong>Indo-western</strong>
-                        <br>
-                        Ladies can flaunt their unconventional sarees,
-                        <a href="https://www.pinterest.com/ramswarooppatra/indo-western-lehengas/">lehengas</a>,
-                        <a href="https://www.pinterest.com/ramswarooppatra/indo-western-anarkalis/">anarkalis</a>,
-                        dresses and the list
-                        goes on whereas gentlemen can wear any kind of suit or just blazer. If you don't like to wear a
-                        suit/blazer, you can do a <a
-                            href="https://www.pinterest.com/ramswarooppatra/high-neck-jackets-for-men/">high-neck
-                        (band gala) waistcoat & shirt</a> combo.
+                    <p data-translatable>
+                        <span></span>
+                        <span>
+                            <strong>Sur place</strong><br/>
+                            Une petite urne sera a disposition le jour J</span>
+                        <span></span>
                     </p>
                 </div>
             </div><!-- /.modal-content -->
@@ -235,9 +275,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h3>A picture is worth a thousand words!</h3>
-                <p>Help us capture the moment, tag your photos with the hashtag
-                    <a href="https://instagram.com/explore/tags/ramandantara/" target="_blank">#RamAndAntara</a>
+                <h3 data-translatable>A picture is worth a thousand words! // Une photo vaut des milliers de mots ! // Una foto vale un milione di parole !</h3>
+                <p>
+                    Capture the moment, tag your photos with the hashtag <a href="https://www.instagram.com/explore/tags/laurentandgiulia/" target="_blank">#LaurentAndGiulia</a>
                 </p>
             </div>
         </div>
@@ -249,73 +289,97 @@
     </div>
 </section>
 
-<section id="eng-pics" class="section-padding">
+<section id="hotels" class="section-padding">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h3 class="header">Engagement Pics</h3>
+                <h3 class="header" data-translatable>Some hotels around // Hotels aux alentours // Alcuni Hotel nei dintorni</h3>
             </div>
         </div>
         <div class="row">
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/_RFX2942-lg.jpg">
+                <a data-fancybox data-type="iframe" data-options='{"iframe" : {"css" : {"width" : "80%", "height" : "80%"}}}' href="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d22616.71424682739!2d8.42719622434777!3d44.880832012281076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x47879a37cbc83f3b%3A0x66d6fb1bb1d57619!2sOttoQuadri%2C+Via+Padana+Ovest%2C+1+ingresso+Via+Tapparone%2C+15028+Quattordio+AL%2C+Italie!3m2!1d44.8973553!2d8.403715799999999!4m5!1s0x47879ce4ac9822ef%3A0x17f2df38402cf792!2sOviglio%2C+Alexandrie%2C+Italie!3m2!1d44.8606098!2d8.4852071!5e0!3m2!1sfr!2sca!4v1548904732560" class="fancybox">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/_RFX2942-sm.jpg" alt=""/>
+                        <img src="img/hotels/OttoQuadri.jpg" alt=""/>
                     </div>
+                    <a href="http://www.booking.com/Share-pwuFuk" target="_blank" class="aAsp"><strong>Bed & Breakfast OttoQuadri</strong></a>
+                    <p>13 minutes by <i class="fa fa-car"></i></p>
+                </a>
+            </div>
+           <div class="col-md-2">
+                <a data-fancybox data-type="iframe" data-options='{"iframe" : {"css" : {"width" : "80%", "height" : "80%"}}}' href="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d22623.01813402098!2d8.437885974315389!3d44.86479331228439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x47879b5dfefc2773%3A0x902ca8d652ffa3e5!2sAgriturismo+Monvicino%2C+Strada+Monvicino%2C+snc%2C+15024+Abbazia+AL%2C+Italie!3m2!1d44.8561031!2d8.4394644!4m5!1s0x47879ce4ac9822ef%3A0x17f2df38402cf792!2sOviglio%2C+15026+Alexandrie%2C+Italie!3m2!1d44.8606098!2d8.4852071!5e0!3m2!1sfr!2sca!4v1548908291340" class="fancybox">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/hotels/Monvicino.jpg" alt=""/>
+                    </div>
+                    <a href="https://fr.hotels.com/ho799043744/agriturismo-monvicino-oviglio-italie/" target="_blank" class="aAsp"><strong>Castello di Monvicino</strong></a>
+                    <p>12 minutes by <i class="fa fa-car"></i></p>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/IMG_3483-lg.jpg">
+                <a data-fancybox data-type="iframe" data-options='{"iframe" : {"css" : {"width" : "80%", "height" : "80%"}}}' href="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1414.0294084099476!2d8.485530108271288!3d44.86109739477461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x47879ce33a3cbf11%3A0x8c87678604453e27!2sAlbergo+ristorante+%22da+Tunon%22%2C+Via+Dante+Alighieri%2C+Oviglio%2C+Alexandrie%2C+Italie!3m2!1d44.8610197!2d8.4879933!4m5!1s0x47879ce4ac9822ef%3A0x17f2df38402cf792!2sOviglio%2C+15026+Alexandrie%2C+Italie!3m2!1d44.8606098!2d8.4852071!5e0!3m2!1sfr!2sca!4v1548910647355" class="fancybox">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/IMG_3483-sm.jpg" alt=""/>
+                        <img src="img/hotels/datunon.jpg" alt=""/>
                     </div>
+                    <a href="http://www.booking.com/Share-6zZXyB" target="_blank" class="aAsp"><strong>Da Tunon</strong></a>
+                    <p>5 minutes <i class="fa fa-walking"></i></p>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/_RFX2992-lg.jpg">
+                <a data-fancybox data-type="iframe" data-options='{"iframe" : {"css" : {"width" : "80%", "height" : "80%"}}}' href="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d90576.12651136085!2d8.373715219049505!3d44.81129699592905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x478786a9ca9929a1%3A0xa0c8745bda8a7033!2sLa+Villa+Hotel%2C+Via+Torino%2C+Mombaruzzo%2C+Asti%2C+Italie!3m2!1d44.7623689!2d8.4102461!4m5!1s0x47879ce4ac9822ef%3A0x17f2df38402cf792!2sOviglio%2C+15026+Alexandrie%2C+Italie!3m2!1d44.8606098!2d8.4852071!5e0!3m2!1sfr!2sca!4v1548910690997" class="fancybox">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/_RFX2992-sm.jpg" alt=""/>
+                        <img src="img/hotels/lavillahotel.jpg" alt=""/>
                     </div>
+                    <a href="http://www.booking.com/Share-x0EpH7" target="_blank" class="aAsp"><strong>La Villa Hotel</strong></a>
+                    <p>18 minutes by <i class="fa fa-car"></i></p>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/_RFX3064-lg.jpg">
+                <a data-fancybox data-type="iframe" data-options='{"iframe" : {"css" : {"width" : "80%", "height" : "80%"}}}' href="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d45270.2149199972!2d8.42296026844119!3d44.83402234909723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x4787846210ab7b29%3A0x8e240e2e44f126d0!2sRelais+23%2C+Regione+San+Colombano%2C+Castelnuovo+Belbo%2C+Asti%2C+Italie!3m2!1d44.807503!2d8.432228!4m5!1s0x47879ce4ac9822ef%3A0x17f2df38402cf792!2sOviglio%2C+15026+Alexandrie%2C+Italie!3m2!1d44.8606098!2d8.4852071!5e0!3m2!1sfr!2sca!4v1548910731761" class="fancybox">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/_RFX3064-sm.jpg" alt=""/>
+                        <img src="img/hotels/relais23.jpg" alt=""/>
                     </div>
+                    <a href="http://www.booking.com/Share-dC1g5jo" target="_blank" class="aAsp"><strong>Relais 23</strong></a>
+                    <p>10 minutes by <i class="fa fa-car"></i></p>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/NGP_4089-lg.jpg">
+                <a data-fancybox data-type="iframe" data-options='{"iframe" : {"css" : {"width" : "80%", "height" : "80%"}}}' href="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d45274.19932620523!2d8.409458718399982!3d44.82894999910281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x478784f5622a1661%3A0x22dc15598185d7fa!2s%22Bed+%26+Tours%22+b%26b-servizi+turistici%2C+Borgo+Giardino%2C+Castelnuovo+Belbo%2C+Asti%2C+Italie!3m2!1d44.8030088!2d8.4059621!4m5!1s0x47879ce4ac9822ef%3A0x17f2df38402cf792!2sOviglio%2C+15026+Alexandrie%2C+Italie!3m2!1d44.8606098!2d8.4852071!5e0!3m2!1sfr!2sca!4v1548909063888" class="fancybox">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/NGP_4089-sm.jpg" alt=""/>
+                        <img src="img/hotels/bedandtours.jpg" alt=""/>
                     </div>
+                    <a href="http://www.booking.com/Share-ajGzR0" target="_blank" class="aAsp"><strong>Bed & Tours</strong></a>
+                    <p>15 minutes by <i class="fa fa-car"></i></p>
                 </a>
             </div>
-            <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/NGP_4119-lg.jpg">
-                    <div class="img-wrap">
-                        <div class="overlay">
-                            <i class="fa fa-search"></i>
-                        </div>
-                        <img src="img/eng_pics/NGP_4119-sm.jpg" alt=""/>
-                    </div>
-                </a>
+        </div>
+        <div class="row">
+            <div class="col-md-1">
+                    <a target="_blank" href="https://www.booking.com/searchresults.fr.html?label=gen173nr-1FCAEoggI46AdIM1gEaCeIAQKYAQ24AQnIARHYAQHoAQH4AQuIAgGoAgM&lang=fr&sid=353d8d60e261e9923b7a0b65b4656c52&sb=1&src=index&src_elem=sb&error_url=https%3A%2F%2Fwww.booking.com%2Findex.fr.html%3Flabel%3Dgen173nr-1FCAEoggI46AdIM1gEaCeIAQKYAQ24AQnIARHYAQHoAQH4AQuIAgGoAgM%3Bsid%3D353d8d60e261e9923b7a0b65b4656c52%3Bsb_price_type%3Dtotal%3Bsrpvid%3D2a0b5a1bfbdb0292%26%3B&ss=Oviglio%2C+Pi%C3%A9mont%2C+Italie&is_ski_area=&ssne=Varenna&ssne_untouched=Varenna&checkin_monthday=19&checkin_month=7&checkin_year=2019&checkout_monthday=20&checkout_month=7&checkout_year=2019&no_rooms=1&group_adults=2&group_children=0&b_h4u_keep_filters=&from_sf=1&ss_raw=oviglio&ac_position=0&ac_langcode=fr&ac_click_type=b&dest_id=900039926&dest_type=city&place_id_lat=44.862099&place_id_lon=8.48848&search_pageview_id=c4ce20db06b500c6&search_selected=true&search_pageview_id=c4ce20db06b500c6&ac_suggestion_list_length=2&ac_suggestion_theme_list_length=0">
+                    <img src="img/hotels/booking.png">
+                    </a>
+            </div>
+            <div class="col-md-1">
+                    <a target="_blank" href="">
+                    <img src="img/hotels/hotelscom.png">
+                    </a>
             </div>
         </div>
     </div>
@@ -336,18 +400,22 @@
 
 <section id="video-bg" class="hidden-sm hidden-xs">
     <div id="bgndVideo" class="player"
-         data-property="{videoURL:'https://youtu.be/9giqL1H6yRs',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
+         data-property="{videoURL:'https://youtu.be/ZMXj4Y1XSBw',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:5, stopAt:139, opacity:1}">
     </div>
     <div id="video-content">
-        <h5>Kolkata</h5>
-        <p>City of joy</p>
+        <h5>Piemonte and its castles...</h5>
+        <p data-translatable>
+            <span>Splendid landscapes, enchanting villages, top-quality wines & famous for the production of aromatic and sparkling wines</span>
+            <span>Paysages fabuleux, villages magnifiques, vins de top qualité & fameux pour la production de vins pétillants et aromatiques</span>
+            <span>Splendidi paesaggi, magnifici villaggi, vini di alta qualità & famoso per la produzione di vini aromatici e frizzanti</span>
+        </p>
     </div>
 </section>
 
 <section id="map" class="section-padding">
     <div class="text-center">
-        <h3>How do I get there?</h3>
-        <p>It's way easier than you think!</p>
+        <h3 data-translatable>How do I get there? // Comment venir ? // Come arrivare ?</h3>
+        <p data-translatable>It's way easier than you think! // C'est bien plus simple que ce que vous pensez ! // Facilissimo</p>
     </div>
     <div id="map-canvas"></div>
     <div id="map-content-wrapper" class="container pointer-events-none">
@@ -355,28 +423,28 @@
             <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
                 <div class="text-center">
                     <div id="btn-show-content" class="toggle-map-content pointer-events-auto">
-                        <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
+                        <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Informations
                     </div>
                 </div>
                 <div id="map-content" class="pointer-events-auto">
                     <div class="row">
                         <div class="col-md-6">
-                            <h5>ITC Fortune Park</h5>
-                            <p>Kona Expressway, Howrah, West Bengal 711403, India</p>
+                            <h5>Castello di Oviglio</h5>
+                            <a class="aAsp" target="_blank" href="https://goo.gl/maps/MX43XeYvD3s">Via XXIV Maggio, 1, 15026 Oviglio AL, Italia</a>
                         </div>
                         <div class="col-md-6">
-                            <h5>Mr. Amit Roy</h5>
-                            <p><i class="fa fa-mobile"></i> <a href="tel://+919412345678">+91 9412345678</a><br>
-                                <i class="fa fa-mobile"></i> <a href="tel://+917123456789">+91 7123456789</a></p>
+                            <h5>Giulia & Laurent</h5>
+                            <p><i class="fa fa-mobile"></i> <a href="tel://+15147108382">+1 514 710 8382</a><br>
+                                <i class="fa fa-mobile"></i> <a href="tel://+616278764">+33 6 16278764</a></p>
                         </div>
                     </div>
                     <div class="row text-center">
-                        <div class="col-md-6" style="padding: 5px;">
+                        <!-- <div class="col-md-6" style="padding: 5px;">
                             <a class="btn btn-fill btn-small"
                                href="https://m.uber.com/ul/?action=setPickup&client_id=Yh7Dl6SjB56RY2JuuZF8ttVa6ryFV78W&pickup=my_location&dropoff[formatted_address]=Fortune%20Park%20Panchwati%20-%20Hotels%20in%20Kolkata%2C%20Howrah%2C%20West%20Bengal%2C%20India&dropoff[latitude]=22.593276&dropoff[longitude]=88.270277"><i
                                     class="fa fa-taxi"></i>&nbsp;&nbsp;Book Uber</a>
-                        </div>
-                        <div class="col-md-6" style="padding: 5px;">
+                        </div> -->
+                        <div class="col-md-12" style="padding: 5px;">
                             <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
                                 map</a>
                         </div>
@@ -396,8 +464,12 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
                     </button>
                     <div class="section-padding">
-                        <h3>Thank you!</h3>
-                        <p>We are glad to see you join us on our big day.</p>
+                        <h3 data-translatable>Thank you! // Merci ! // Grazie !</h3>
+                        <p data-translatable>
+                            <span>We are glad to see you join us on our big day.</span>
+                            <span>Nous sommes heureux de vous recevoir pour notre grande journée.</span>
+                            <span>Siamo contenti di vedervi per il nostro grande jorno.</span>    
+                        </p>
                         <div id="add-to-cal"></div>
                     </div>
                 </div>
@@ -408,8 +480,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
-                <h3>What are you waiting for?</h3>
-                <p>We would greatly appreciate if you could RSVP before 1st of November '17</p>
+                <h3>RSVP</h3>
+                <p data-translatable>
+                    <span>We would greatly appreciate if you could RSVP before the <strong>1<sup>st</sup> of June</strong> 2019</span>
+                    <span>Merci de nous faire parvenir votre réponse avant le <strong>1<sup>er</sup> Juin</strong> 2019</span>
+                    <span>Vi saremmo grati se poteste rispondere entro il <strong>1 Giugno</strong> 2019</span>
+                </p>
                 <form id="rsvp-form" class="rsvp-form"
                       action=""
                       method="POST">
@@ -433,26 +509,34 @@
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
-                                                                  max="4"
-                                                                  placeholder="Husband/Wife or kids"
+                                                                  max="8"
+                                                                  placeholder="Husband/Femme or bambini"
                                                                   required>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
+                                <div class="form-input-group">
+                                    <i class="fa fa-user"></i><input name="allergy" class=""
+                                                                     placeholder="Allergy"
+                                                                     required>
+                                </div>
+                            </div>
+                        <!-- <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
                                                                 class="" min="0"
                                                                 placeholder="Invite code"
                                                                 required>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="row">
                         <div class="col-md-12" id="alert-wrapper"></div>
                     </div>
-                    <button class="btn-fill rsvp-btn">
-                        Yes,
-                        that's me!
+                    <button class="btn-fill rsvp-btn" data-translatable>
+                        <span>Yes, that's me!</span>
+                        <span>Oui, c'est moi !</span>
+                        <span>Si, sono io !</span>
                     </button>
                 </form>
             </div>
@@ -465,7 +549,7 @@
         <div class="row">
             <div class="col-sm-12 text-center content">
                 <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
-                <p>Crafted by Ram with lots of <span class="fa fa-heart pulse2"></span> for Antara</p>
+                <p>Created by Laurent with lots of <span class="fa fa-heart pulse2"></span> for Giulia</p>
             </div>
         </div>
     </div>
@@ -473,15 +557,29 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-<script src="js/jquery.fancybox.pack.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
 <script src="js/vendor/bootstrap.min.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
 <script src="js/jquery.mb.YTPlayer.min.js"></script>
 <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
 <script src="js/vendor/ouical.js"></script>
 <script src="js/scripts.min.js"></script>
+<script src="js/dom-i18n.min.js"></script>
+<script>
+    var i18n = window.domI18n({
+    languages: ['en', 'fr', 'it'],
+    defaultLanguage: 'en'
+    });
+
+    if (navigator.language.substring(0, 2) == "fr") {
+        i18n.changeLanguage('fr');
+    }
+    if (navigator.language.substring(0, 2) == "it"){
+        i18n.changeLanguage('it');
+    }
+  </script>
 <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlPw3GQYI3faa_9mRE6plWuM7xNEmrwH0&callback=initMap"></script>
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeA49LXSPls8Q6gdhH7KPj74IYgYr06MQ&callback=initMap"></script>
 <!-- Google Analytics -->
 <script>
     (function (i, s, o, g, r, a, m) {
@@ -495,7 +593,7 @@
         a.src = g;
         m.parentNode.insertBefore(a, m)
     })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-46465113-4', 'auto');
+    ga('create', 'UA-60348896-3', 'auto');
     ga('send', 'pageview');
 </script>
 </body>
