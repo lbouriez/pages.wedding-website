@@ -33,7 +33,7 @@ a {
   transition-property: color, border-color, background-color;
 }
 P {
-  color: black !important;
+  color: black;
 }
 .aAsp {
   @extend p;
@@ -763,7 +763,7 @@ Embed video
   letter-spacing: 10px;
 }
 #video-content p {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 /* ==========================================================================

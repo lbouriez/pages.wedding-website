@@ -19,7 +19,7 @@
   "license": "GPL-3.0",
   "homepage": "https://github.com/lbouriez/wedding-website",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.0"
