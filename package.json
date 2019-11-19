@@ -4,7 +4,8 @@
   "description": "A wedding website with loads of features.",
   "main": "npmfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pwa": "pwa-asset-generator img/logo.png ./pwa_assets -i ./index.html -m ./manifest.json --dark-mode --background dimgrey"
   },
   "repository": {
     "type": "git",
