@@ -21,7 +21,7 @@
   "homepage": "https://github.com/lbouriez/wedding-website",
   "devDependencies": {
     "gulp": "^4.0.0",
-    "gulp-rename": "^1.2.2",
+    "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.0"
   },
